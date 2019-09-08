@@ -1,0 +1,24 @@
+User Manual - Restaurant Paging System.
+
+Steps
+1) Command to burn the code to the mod. 
+make micaz install mib520,/dev/ttyUSB0
+
+2) Commands to run TestSerial.java
+	javac TestSerial.java 
+	java TestSerial - comm serial@/dev/ttyUSB1:micaz
+
+3) Various options for the menu driven program - 
+	a) Select 1 for server or 2 for customer.
+	
+	b) For Customer,
+		1 is to make to make a table entry.
+		2 is to view all the table entries.
+		3 is to exit to the main menu.
+	
+	c) For Server
+		1 is to make to make a table entry.
+		2 is to send indication for empty table.
+		3 is to view all the table entries.
+		4 is to exit to the main menu.
+	
